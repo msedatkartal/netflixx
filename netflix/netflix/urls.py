@@ -12,6 +12,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',indexPage,name='indexPage'),
     path('netflix',netflix,name='netflix'),
+    path('netflix/favori',Favori,name='favori'),
     path('netflix/<catetitle>',netflixType),
     # path('netflixPage<id>',netflixPage,name='netflixPage'),
     # ===USER===
